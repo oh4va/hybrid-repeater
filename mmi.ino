@@ -53,7 +53,7 @@ void loop() {
     ptt_tot_on = 0;
   }
 
-  // Select state output and delay time
+  // Select state output
   output = FSM[state].Out;
 
   // Set output, toggle only if TX has been ON too long
@@ -142,7 +142,7 @@ void SetPinModes() {
   Read input
 
   @param none
-  @return Input value for the FSM packed in one unsigned char variable
+  @return Input value for the FSM packed in one byte
 */
 
 byte ReadInput() {

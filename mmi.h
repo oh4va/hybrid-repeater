@@ -81,7 +81,7 @@ typedef struct {
 #define OUT_SVX_BIT  B001  // Select TX signal from SVXLINK
 #define OUT_DVM_BIT  B010  // Select TX signal from MMDVM
 
-/** Indexed transition table with output and delay time */
+/** Indexed transition table with output */
 const fsm_t FSM[] = {
   //    Combined GPIO output, FSM input byte values:                                                               //
   //                           00000000, 00000001, 00000010, 00000011, 00000100, 00000101, 00000110,  00000111,    //
